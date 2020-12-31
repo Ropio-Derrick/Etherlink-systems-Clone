@@ -44,6 +44,84 @@
 /* section */
 
 /* port */
-.port img{
+.port{
+    background-image: url(img/etherlink-landing-page.jpg);
+    padding-top:0.1px ;
+    height: 80%;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+hr{
+    width: 5%;
+    margin:  0px 10px 0px 10px;
+    height: 4px;
+    background-color:#f7941d;
+    
+}
+.line{
+    font-weight: 600;
+    color: #262262;
+    margin-top: 140px;
+    margin-left:15% ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+/* texts on port */
+.txta{
+    margin-top: 10px;
+    margin-left:15% ;
+    font-size: 70px;
+    color:#262262 ;
+    font-weight: 700;
+}
+.txtb{
+    margin-top: -10px;
+    margin-left:15% ;
+    font-size: 70px;
+    color: #f7941d;
+    font-weight: 700;
+}
+
+.txtc{
+    margin-top: 10px;
+    margin-left:15% ;
+    font-size: 17px;
+    color:#262262 ;
+    font-weight: 540;
+    width: 40%;
+       
+}
+
+.txtd{
+    margin-top: 20px;
+    margin-left:15% ;
+    font-size: 17px;
+    color:#262262 ;
+    font-weight: 540;
+    width: 40%;
+}
+
+.view{
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 62px;
+    margin-left:15% ;
+    font-size: 17px;
+    background-color: #262262;
+    color:#ddd ;
+    font-weight: 540;
+    width: 180px;
+}
+
+.view:hover{
+    margin-top: 55px;
+    
+    transition: 0.5s ease-out  margin-top;
+    
 }
