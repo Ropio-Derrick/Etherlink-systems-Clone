@@ -93,17 +93,11 @@ hr{
     color:#262262 ;
     font-weight: 540;
     width: 40%;
+    line-height: 30px;
        
 }
 
-.txtd{
-    margin-top: 20px;
-    margin-left:15% ;
-    font-size: 17px;
-    color:#262262 ;
-    font-weight: 540;
-    width: 40%;
-}
+
 
 .view{
     height: 40px;
@@ -124,4 +118,84 @@ hr{
     
     transition: 0.5s ease-out  margin-top;
     
+}
+
+
+/* face */
+.face{
+    margin-top: -30px;
+    border-radius: 8px;
+    margin-left: 15%;
+    width: 70%;
+    background-color: #f7941d;
+    height:290px;
+    display: flex;   
+
+}
+.who{
+    flex: block;
+    border-radius: 8px 0px 0px 8px;
+    width: 60%;
+    background-color: #262262;
+    color: #ddd;
+    font-size: 20px;
+}
+.who h3{
+    margin-top:15px ;
+    margin-right: 15px;
+    color: #f7941d;
+    font-size: 45px;
+    float: right;
+    font-weight: 500;
+}
+.who p{
+    line-height: 30px;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: #ddd;
+    
+}
+
+.whats{
+    display: block;
+    border-radius: 0px 8px 8px 0px;
+
+    width:40%;
+    background-color: #f7941d;
+    color: #ddd;
+    font-size: 20px;
+}
+.whats h3{
+    margin-top:15px ;
+    margin-left: 15px;
+    color: #262262;
+    font-size: 43px;
+    font-weight: 500;
+}
+.whats p{
+    line-height: 30px;
+    margin-left: 15px;
+    margin-top: 27px;
+    color: #ddd;
+    float: right;
+    align-content: 10px;
+    margin-bottom: 20px;
+}
+ .face .who a{
+    
+    margin-left: 15px;
+    font-size: 20px;
+    color: #f7941d;
+    outline: none;
+    text-decoration: none;
+ }
+ .face .whats a{
+
+    margin-left: 15px;
+    font-size: 20px;
+    color:#262262;
+    outline: none;
+    text-decoration: none;
 }
