@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+/* topbar */
+.topbar{
+    background-color: #262262;
+    color: #ddd;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 15px;
+}
+.navbar .img{
+    margin-left: 11%;
+}
+.navbar ul{
+    align-items: center;
+    margin-right: 15%;
+    padding-top: 16px;
+}
+.navbar ul a{
+    color: #262262;
+    text-decoration: none;
+    align-items: center;
+    padding:15px ;
+
+}
+.navbar ul a:hover{
+    color: #f7941d;
+    transition: 0.5s  ease-out color ;
+}
+
+/* section */
+
+/* port */
+.port img{
+
+}
