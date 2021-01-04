@@ -260,6 +260,7 @@ h3{
 .testimonials{
     padding-top: 20px;
     background-color: #ddd;
+    padding-bottom: 50px;
 }
 
 .testimonials h5{
@@ -318,6 +319,7 @@ h3{
    
 /* contact us */
 .contact-us{
+    
     background-color: #262262;
     height: 250px;
     color: #ddd;
@@ -366,3 +368,52 @@ h3{
     margin-top: -1px;
     
 }
+
+/* footer */
+footer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    font-size: 20px;
+    margin-left: 25%;
+    
+}
+ footer div{
+     width: 380px;
+    
+ }
+footer h3{
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size: 20px;
+    color: #f7941d;
+}
+ footer h2{
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 20px;
+    color: #262262;
+
+ }
+ footer p,p1{
+     line-height: 30px;
+     padding-left: 20%;
+     font-size: 20px;
+     color: #262262;
+ }
+ footer p:hover{
+     color:#f7941d;
+ }
+
+ /* copyright */
+ .copyright{
+     margin-top: 50px;
+     color: #262262;
+     background-color: rgb(211, 211, 211);
+     height: 100px;
+     align-items: center;
+     text-align: center;
+     padding-top: 47px;
+     font-size: 20px;
+ }
