@@ -199,3 +199,47 @@ hr{
     outline: none;
     text-decoration: none;
 }
+
+/* caroudel */
+
+
+/* last */
+
+/* services */
+h5{
+    margin-top: 50px;
+    font-size: 19px;
+    margin-left: 15%;
+    color: #f7941d;
+}
+h3{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 50px;
+    color: #262262;
+    margin-left: 15%;
+
+}
+
+.linee{
+    margin-top: 10px;
+    margin-left: 15%;
+    width: 70%;
+    height: 2px;
+    
+}
+
+.serv-grid{
+    margin: 50px 15% 20px 15% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.serv-grid div {
+    background-color: #262262;
+    color: #ddd;
+    height: 180px;
+    text-align: center;
+    padding: 40px;
+    font-size: 35px;
+}
